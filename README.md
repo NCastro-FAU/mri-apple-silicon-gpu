@@ -82,5 +82,14 @@ phantom.py      Shepp-Logan + simulated coil maps
 macOS on Apple silicon, Python >= 3.10, numpy, matplotlib, torch >= 2.3, mlx >= 0.20.
 Script 03 does not need MLX and also runs on a CPU-only machine (the GPU timing is then skipped).
 
+## Acknowledgements
+This work stands on open-source MRI and NUFFT software, and I am grateful to their authors:
+
+* [MRI-NUFFT](https://github.com/mind-inria/mri-nufft): a unified Python interface to NUFFT back ends for MRI
+* [SigPy](https://github.com/mikgroup/sigpy): signal processing and iterative MRI reconstruction in Python
+* [BART](https://github.com/mrirecon/bart): the Berkeley Advanced Reconstruction Toolbox
+* [mlx-nufft](https://github.com/martinlachaine/mlx-nufft): non-uniform FFTs on Apple GPUs via Metal/MLX
+* [FINUFFT](https://github.com/flatironinstitute/finufft): the Flatiron Institute non-uniform FFT library
+
 ## Licence
 MIT
